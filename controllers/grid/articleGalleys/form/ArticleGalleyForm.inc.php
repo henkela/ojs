@@ -64,6 +64,7 @@ class ArticleGalleyForm extends Form {
 		if ($this->_articleGalley) $templateMgr->assign(array(
 			'representationId' => $this->_articleGalley->getId(),
 			'articleGalley' => $this->_articleGalley,
+			'articleGalleyFile' => $this->_articleGalley->getFile(),
 		));
 		$templateMgr->assign(array(
 			'supportedLocales' => $journal->getSupportedLocaleNames(),
@@ -135,9 +136,6 @@ class ArticleGalleyForm extends Form {
 
 		if ($articleGalley) {
 			$articleGalley->setLabel($this->getData('label'));
-			if ($journal->getSetting('enablePublicGalleyId')) {
-				$articleGalley->setStoredPubId('publisher-id', $this->getData('publicGalleyId'));
-			}
 			$articleGalley->setLocale($this->getData('galleyLocale'));
 			$articleGalley->setRemoteURL($this->getData('remoteURL'));
 
@@ -148,10 +146,6 @@ class ArticleGalleyForm extends Form {
 			$articleGalley = $articleGalleyDao->newDataObject();
 			$articleGalley->setSubmissionId($this->_submission->getId());
 			$articleGalley->setLabel($this->getData('label'));
-			if ($journal->getSetting('enablePublicGalleyId')) {
-				$articleGalley->setStoredPubId('publisher-id', $this->getData('publicGalleyId'));
-			}
-
 			$articleGalley->setLocale($this->getData('galleyLocale'));
 			$articleGalley->setRemoteURL($this->getData('remoteURL'));
 
