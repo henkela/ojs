@@ -154,7 +154,6 @@ Befolgen Sie bitte den folgenden Ablauf, um Ihr Manuskript elektronisch zu bearb
 	<message key="default.journalSettings.membershipFeeDescription">Durch Zahlung dieser Gebühr werden Sie für ein Jahr Mitglied. Während dieser Zeit haben Sie kostenlosen Zugang zu dieser Zeitschrift.</message>
 	<message key="default.journalSettings.donationFee">Spenden an die Zeitschrift</message>
 	<message key="default.journalSettings.donationFeeDescription">Spenden jeglicher Höhe an diese Zeitschrift werden dankend angenommen. Sie ermöglichen es den Redakteur/innen, weiterhin eine Zeitschrift von höchster Qualität für ihre Leser/innen bereitzustellen.</message>
-<<<<<<< HEAD
 
 	<!-- Group defaults -->
 	<message key="default.groups.name.manager">Zeitschriftenverwalter/in</message>
@@ -182,6 +181,4 @@ Befolgen Sie bitte den folgenden Ablauf, um Ihr Manuskript elektronisch zu bearb
 	<message key="default.genres.dataAnalysis">Datenanalyse</message>
 	<message key="default.genres.dataSet">Datensatz</message>
 	<message key="default.genres.sourceTexts">Quelltexte</message>
-=======
->>>>>>> 346706bc5e90ed1263c757699c448b134923ee76
 </locale>
