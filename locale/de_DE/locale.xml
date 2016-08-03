@@ -1108,7 +1108,6 @@ Die Prüfung kann bei Such-URLs, die Formularausfüllung verlangen, fehlschlagen
 
 	<!-- Meldungen: Fehlerbehebung -->
 	<message key="debug.notes.currencyListLoad">Währungsliste "{$filename}" aus XML geladen</message>
-<<<<<<< HEAD
 
  	<!-- Grid Actions -->
         <message key="grid.action.createContext">Eine Zeitschrift einrichten</message>
@@ -1119,6 +1118,4 @@ Die Prüfung kann bei Such-URLs, die Formularausfüllung verlangen, fehlschlagen
 	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Diese Implementierung der Suche erlaubt keine Neuin
 dizierung auf Zeitschriftenebene.</message>
 	<message key="search.cli.rebuildIndex.unknownJournal">Der angegebene Pfad "{$journalPath}" führt nicht zu einer Zeitschrift.</message>
-=======
->>>>>>> 346706bc5e90ed1263c757699c448b134923ee76
 </locale>
